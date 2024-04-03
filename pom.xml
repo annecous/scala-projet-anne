@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>eliamosef</groupId>
-    <artifactId>scala_template</artifactId>
+    <groupId>annecous</groupId>
+    <artifactId>scala-projet-anne</artifactId>
     <version>1.2</version>
 
     <properties>
@@ -105,7 +105,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/eliamosef/scala_template</url>
+            <url>https://maven.pkg.github.com/annecous/scala-projet-anne</url>
         </repository>
     </distributionManagement>
 </project>
