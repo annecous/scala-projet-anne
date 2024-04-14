@@ -110,7 +110,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/eliamosef/scala_template</url>
+            <url>https://maven.pkg.github.com/annecous/scala-projet-anne</url>
         </repository>
     </distributionManagement>
 </project>
