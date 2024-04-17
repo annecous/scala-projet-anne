@@ -33,6 +33,14 @@ object Main extends App with Job {
       "./default/output-writer"
     }
   }
+  val REPORT: String = try {
+    cliArgs(3)
+  } catch {
+    case e: java.lang.ArrayIndexOutOfBoundsException => {
+      "report1"
+    }
+  }
+  println(REPORT)
 
   val sparkSession = SparkSession
     .builder
@@ -56,7 +64,7 @@ object Main extends App with Job {
     sys.exit(1)
   }
 
-  val processedDF: DataFrame = processor.process(inputDF, "report2") // Spécification du type de rapport à générer
+  val processedDF: DataFrame = processor.process(inputDF, REPORT) // Spécification du type de rapport à générer
   // Configuration du Writer
 
   val writer: Writer = new Writer()
